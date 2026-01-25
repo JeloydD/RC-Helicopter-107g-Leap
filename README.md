@@ -68,7 +68,7 @@ The system translates natural gestures into flight commands, making it intuitive
 
    - \*\*Note:\*\* Ensure no jumper wires are connected to Arduino before uploading. Connect jumper wires only after Verify \& Compile.
 
-6\. Install Processing software.
+6\. Install Processing software ( download here https://github.com/JeloydD/processing-3.2.1 ).
 
 7\. Open project and run Processing program.
 
