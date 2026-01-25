@@ -62,19 +62,21 @@ The system translates natural gestures into flight commands, making it intuitive
 
 4\. Test Leap Motion Controller\*\* to ensure it is working properly.
 
-5\. Open and run Arduino program:
+5\. Download the project here https://github.com/JeloydD/RC-Helicopter-107g-Leap
+
+6\. Open and run Arduino program:
 
    - Verify \& Compile code
 
    - \*\*Note:\*\* Ensure no jumper wires are connected to Arduino before uploading. Connect jumper wires only after Verify \& Compile.
 
-6\. Install Processing software ( download here https://github.com/JeloydD/processing-3.2.1 ).
+7\. Install Processing software ( download here https://github.com/JeloydD/processing-3.2.1 ).
 
-7\. Open project and run Processing program.
+8\. Open and run Processing program.
 
-8\. Position Leap Motion Controller: green light facing you.
+9\. Position Leap Motion Controller: green light facing you.
 
-9\. Place your hand above the Leap Motion sensor. The system should respond to your gestures.
+10\. Place your hand above the Leap Motion sensor. The system should respond to your gestures.
 
 
 
