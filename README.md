@@ -1,5 +1,6 @@
 \# Gesture-Controlled RC Helicopter (Leap Motion + Processing + Arduino)
 
+[![Video Title or Alt Text](https://img.youtube.com/vi/yKsm9AymRk4/hqdefault.jpg)](https://www.youtube.com/watch?v=yKsm9AymRk4)
 
 
 \## 📌 Project Description
@@ -492,8 +493,7 @@ Before flying, ensure:
 
 
 
-\## 🎥 Demo
-
+\## 🎥 Demo (click to view)
 
 [![Video Title or Alt Text](https://img.youtube.com/vi/yKsm9AymRk4/hqdefault.jpg)](https://www.youtube.com/watch?v=yKsm9AymRk4)
 
