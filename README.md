@@ -12,15 +12,15 @@
 
 
 
-This project demonstrates a DIY gesture-controlled system that allows a \*\*real-world RC helicopter (Syma-type IR helicopter)\*\* to be flown using \*\*hand gestures\*\* instead of a traditional remote controller. The system uses a \*\*Leap Motion Controller\*\* to track hand movement, \*\*Processing\*\* as the middleware for gesture interpretation and serial communication, and an \*\*Arduino UNO\*\* to transmit infrared (IR) control signals directly to the helicopter.
+This project demonstrates a DIY gesture-controlled system that allows a real-world RC helicopter (Syma-type IR helicopter) to be flown using hand gestures instead of a traditional remote controller. The system uses a Leap Motion Controller to track hand movement, Processing as the middleware for gesture interpretation and serial communication, and an Arduino UNO to transmit infrared (IR) control signals directly to the helicopter.
 
 
 
-The main objective of this project is to explore \*\*human–computer interaction (HCI)\*\* by replacing conventional input devices with natural hand gestures, while maintaining safe and stable control of a physical object.
+The main objective of this project is to explore human–computer interaction (HCI) by replacing conventional input devices with natural hand gestures, while maintaining safe and stable control of a physical object.
 
 
 
-This project has been tested and verified on \*\*64-bit Windows 8, Windows 10, and Windows 11\*\*.
+This project has been tested and verified on 64-bit Windows 8, Windows 10, and Windows 11.
 
 
 
@@ -32,7 +32,7 @@ This project has been tested and verified on \*\*64-bit Windows 8, Windows 10, a
 
 
 
-\*\*Data Flow:\*\*
+Data Flow:
 
 
 
@@ -102,19 +102,19 @@ RC Helicopter
 
 
 
-\* \*\*Operating System:\*\* Windows 8 / 10 / 11 (64-bit)
+\* Operating System: Windows 8 / 10 / 11 (64-bit)
 
-\* \*\*Arduino IDE:\*\* Latest version
+\* Arduino IDE: Latest version
 
-\* \*\*Processing:\*\* Version \*\*3.5.4 (Portable)\*\*
+\* Processing: Version 3.5.4 (Portable)
 
-\* \*\*Leap Motion SDK:\*\*
+\* Leap Motion SDK:
 
 
 
-&#x20; \* Leap Motion Controller (Legacy): \*\*Orion SDK v3.2.1\*\*
+&#x20; \* Leap Motion Controller (Legacy): Orion SDK v3.2.1
 
-&#x20; \* Leap Motion Controller 2 (Optional): \*\*Ultraleap Hyperion v6.2.0\*\*
+&#x20; \* Leap Motion Controller 2 (Optional): Ultraleap Hyperion v6.2.0
 
 
 
@@ -134,15 +134,15 @@ RC Helicopter
 
 
 
-> \*\*This project presented two major challenges: software compatibility and hardware circuitry.\*\*
+> This project presented two major challenges: software compatibility and hardware circuitry.
 
 
 
-While the software installation and configuration required careful selection of compatible tools and SDK versions, \*\*the most challenging part of this project was the electronic circuitry\*\*.
+While the software installation and configuration required careful selection of compatible tools and SDK versions, the most challenging part of this project was the electronic circuitry.
 
 
 
-As an \*\*IT graduate with a stronger background in programming\*\*, the software development and coding aspects were more familiar. However, the hardware side—particularly \*\*IR transmission circuitry, current limiting, transistor switching, and timing-sensitive signal generation\*\*—required significant additional research and experimentation.
+As an IT graduate with a stronger background in programming, the software development and coding aspects were more familiar. However, the hardware side—particularly IR transmission circuitry, current limiting, transistor switching, and timing-sensitive signal generation—required significant additional research and experimentation.
 
 
 
@@ -180,9 +180,9 @@ Through iterative testing, troubleshooting, and hands-on learning, the correct c
 
 
 
-&#x20;  \* \*\*Original Leap Motion Controller:\*\* Use \*\*Orion SDK v3.2.1\*\*
+&#x20;  \* Original Leap Motion Controller: Use Orion SDK v3.2.1
 
-&#x20;  \* \*\*Leap Motion Controller 2:\*\* Use \*\*Ultraleap Hyperion v6.2.0\*\*
+&#x20;  \* Leap Motion Controller 2: Use Ultraleap Hyperion v6.2.0
 
 
 
@@ -210,7 +210,7 @@ Through iterative testing, troubleshooting, and hands-on learning, the correct c
 
 
 
-This project uses \*\*Processing 3.5.4\*\* due to library compatibility.
+This project uses Processing 3.5.4 due to library compatibility.
 
 
 
@@ -244,7 +244,7 @@ This project uses \*\*Processing 3.5.4\*\* due to library compatibility.
 
 
 
-Due to compatibility issues, libraries must be \*\*installed manually\*\*.
+Due to compatibility issues, libraries must be installed manually.
 
 
 
@@ -252,11 +252,11 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-\* \*\*LeapMotionP5\*\*
+\* LeapMotionP5
 
-\* \*\*Arduino (Firmata)\*\*
+\* Arduino (Firmata)
 
-\* \*\*ControlP5\*\*
+\* ControlP5
 
 
 
@@ -304,7 +304,7 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-1\. Install the \*\*latest Arduino IDE\*\* from:
+1\. Install the latest Arduino IDE from:
 
 &#x20;  \[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
@@ -326,7 +326,7 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-4\. Install \*\*Arduino AVR Boards\*\*.
+4\. Install Arduino AVR Boards.
 
 
 
@@ -334,7 +334,7 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-&#x20;  \* Board: \*\*Arduino UNO\*\*
+&#x20;  \* Board: Arduino UNO
 
 &#x20;  \* Port: Corresponding COM port
 
@@ -348,15 +348,15 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-\* Connect the \*\*IR LED anode (+)\*\* to \*\*5V\*\* through a \*\*200 Ω resistor\*\*.
+\* Connect the IR LED anode (+) to 5V through a 200 Ω resistor.
 
-\* Connect the \*\*IR LED cathode (-)\*\* to the \*\*collector of the transistor\*\*.
+\* Connect the IR LED cathode (-) to the collector of the transistor.
 
-\* Connect the \*\*transistor emitter\*\* to \*\*GND\*\*.
+\* Connect the transistor emitter to GND.
 
-\* Connect the \*\*transistor base\*\* to \*\*Arduino pin 8\*\* through a resistor.
+\* Connect the transistor base to Arduino pin 8 through a resistor.
 
-\* Optional: Connect a standard LED to \*\*pin 13\*\* as a status indicator.
+\* Optional: Connect a standard LED to pin 13 as a status indicator.
 
 
 
@@ -390,7 +390,7 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 1\. Open the Processing sketch from this repository.
 
-2\. Confirm the correct \*\*serial port\*\* is selected in the code.
+2\. Confirm the correct serial port is selected in the code.
 
 3\. Run the sketch.
 
@@ -418,7 +418,7 @@ Due to compatibility issues, libraries must be \*\*installed manually\*\*.
 
 
 
-> If no hand is detected, throttle is automatically set to \*\*zero\*\* for safety.
+> If no hand is detected, throttle is automatically set to zero for safety.
 
 
 
@@ -513,7 +513,7 @@ Before flying, ensure:
 
 
 
-Below is a \*\*simplified wiring reference\*\* for the IR transmission circuit used in this project. A transistor is required to safely drive the IR LED with sufficient current.
+Below is a simplified wiring reference for the IR transmission circuit used in this project. A transistor is required to safely drive the IR LED with sufficient current.
 
 
 
@@ -539,7 +539,7 @@ GND ────────────┴── Emitter (E)
 
 
 
-\*\*Notes:\*\*
+Notes:
 
 
 
@@ -573,7 +573,7 @@ GND ────────────┴── Emitter (E)
 
 
 
-This project reinforced the importance of \*\*cross-disciplinary skills\*\*, combining software engineering with basic electronics and embedded system concepts.
+This project reinforced the importance of cross-disciplinary skills, combining software engineering with basic electronics and embedded system concepts.
 
 
 
@@ -585,7 +585,7 @@ This project reinforced the importance of \*\*cross-disciplinary skills\*\*, com
 
 
 
-This project demonstrates a complete end-to-end gesture-controlled flight system using affordable hardware and open-source software. While \*\*software compatibility and electronic circuitry posed significant challenges\*\*, overcoming them resulted in a stable and intuitive gesture-based RC control platform.
+This project demonstrates a complete end-to-end gesture-controlled flight system using affordable hardware and open-source software. While software compatibility and electronic circuitry posed significant challenges, overcoming them resulted in a stable and intuitive gesture-based RC control platform.
 
 
 
