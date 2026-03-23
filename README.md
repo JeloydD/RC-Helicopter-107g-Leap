@@ -495,8 +495,7 @@ Before flying, ensure:
 \## 🎥 Demo
 
 
-
-https://youtu.be/yKsm9AymRk4
+[![Video Title or Alt Text](https://img.youtube.com/vi/yKsm9AymRk4/hqdefault.jpg)](https://www.youtube.com/watch?v=yKsm9AymRk4)
 
 
 
