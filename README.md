@@ -1,6 +1,6 @@
 \# Gesture-Controlled RC Helicopter (Leap Motion + Processing + Arduino)
 
-<a href="https://www.youtube.com/watch?v=yKsm9AymRk4" target="_blank">[![Video Title or Alt Text](https://img.youtube.com/vi/yKsm9AymRk4/hqdefault.jpg)]</a>
+<a href="https://www.youtube.com/watch?v=yKsm9AymRk4" target="_blank">https://img.youtube.com/vi/yKsm9AymRk4/hqdefault.jpg</a>
 
 \## 📌 Project Description
 
